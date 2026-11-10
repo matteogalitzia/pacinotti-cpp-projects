@@ -3,23 +3,23 @@ using namespace std;
 
 int main() {
     // Courtesy message explaining what the program does to the user
-    cout << "Questo programma visualizza il maggiore tra 2 valori distinti \n";
+    cout << "This program displays the maximum value between 2 distinct numbers.\n\n";
 
     // Variables declaration
     int A, B;
 
     // Input data from the user
-    cout << "Inserire il primo numero\n";
+    cout << "Enter the first number:\n";
     cin >> A;
-    cout << "Inserire il secondo numero\n";
+    cout << "Enter the second number:\n";
     cin >> B;
 
     // Selection logic to find the maximum value
     if (A > B) {
-        cout << "Risultato: " << A << "\n";
+        cout << "Result: " << A << "\n";
     } 
     else {
-        cout << "Risultato: " << B << "\n";
+        cout << "Result: " << B << "\n";
     }
 
     // Successful execution return
