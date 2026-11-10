@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     // Courtesy message explaining what the program does to the user
-    cout << "Questo programma stampa Hello World.\n\n";
+    cout << "This program prints the universal welcome message.\n\n";
 
     // Standard output stream to print the classic welcome message
     cout << "Hello World";
