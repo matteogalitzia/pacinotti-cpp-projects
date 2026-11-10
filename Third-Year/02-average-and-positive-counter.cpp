@@ -5,18 +5,18 @@ int main() {
     // Courtesy message explaining what the program does to the user
     cout << "This program calculates the average of 3 numbers and counts how many are positive.\n\n";
 
-    // Variables declaration
-    int num1, num2, num3;
+    // Declaring numbers as float right away avoids calculation bugs with decimals
+    float num1, num2, num3;
     int positive_count = 0;
 
     // Input data from the user
-    cout << "Enter three integers separated by spaces:\n";
+    cout << "Enter three numbers separated by spaces:\n";
     cin >> num1 >> num2 >> num3;
 
-    // Fixed math logic: casting the integer sum to float before division to keep decimal precision
-    float average = static_cast<float>(num1 + num2 + num3) / 3.0f;
+    // Average calculation
+    float average = (num1 + num2 + num3) / 3.0;
 
-    // Selection logic to count positive numbers (greater than 0)
+    // Selection logic using the post-increment operator
     if (num1 > 0) {
         positive_count++;
     }
@@ -27,7 +27,7 @@ int main() {
         positive_count++;
     }
 
-    // Outputting the final results to the user
+    // Outputting the final results
     cout << "\nAverage: " << average << "\n";
     cout << "Positive numbers: " << positive_count << "\n";
 
