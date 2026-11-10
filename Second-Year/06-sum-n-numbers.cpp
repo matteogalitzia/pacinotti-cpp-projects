@@ -19,8 +19,8 @@ int main() {
         cout << "Enter the number:\n";
         cin >> num;
         
-        S += num; // Professional shorthand for S = S + num
-        n++;      // Professional post-increment operator
+        S += num; // Shorthand for S = S + num
+        n++;      // Post-increment operator
     }
 
     // Outputting the final accumulated result
