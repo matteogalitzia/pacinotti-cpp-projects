@@ -9,7 +9,7 @@ int main() {
     cout << "Enter a number:\n";
     cin >> N;
 
-    // Optimized selection logic: calculating the modulo directly inside the condition
+    // Selection logic: calculating the modulo directly inside the condition
     if (N % 2 == 0) {
         cout << "The number is even.\n";
     } 
